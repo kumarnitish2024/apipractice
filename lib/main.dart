@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:apipractice/view/user_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       title: 'Flutter Demo',
-      home:  HotelScreen(),
+      home:  UserDetailsScreen(),
     );
   }
 
