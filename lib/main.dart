@@ -20,5 +20,11 @@ class MyApp extends StatelessWidget {
       home:  HotelScreen(),
     );
   }
+
+  /// MVC model view controller
+/// model view controller
+/// MVP model view presenter
+/// MVVM model view viewmodel
+
 }
 
